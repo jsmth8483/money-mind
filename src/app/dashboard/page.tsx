@@ -6,6 +6,9 @@ export default function Home() {
     return (
         <div className='container max-w-full'>
             <SideNav />
+            <main>
+                <Header />
+            </main>
         </div>
     );
 }

@@ -1,13 +1,13 @@
 import './header.scss';
 import { CircleUser } from 'lucide-react';
+import SearchBar from '../searchbar/searchBar';
 
 const Header = () => {
     return (
         <header>
-            {/* <SearchBar /> */}
-            <input type='text' placeholder='Search...' />
-            <button>
-                <CircleUser />
+            <SearchBar />
+            <button className='account-btn'>
+                <CircleUser className='account-icon' />
             </button>
         </header>
     );

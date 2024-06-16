@@ -3,4 +3,17 @@ header {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--border-color);
+    background: var(--background-nav-color);
+
+    .account-btn {
+        margin-right: 25px;
+
+        .account-icon {
+            width: 30px;
+            height: 30px;
+            color: gray;
+        }
+    }
 }

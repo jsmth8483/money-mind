@@ -1,0 +1,29 @@
+.search-bar {
+    width: 400px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+
+    .search-icon {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+        color: gray;
+    }
+
+    .search-bar-input {
+        margin: 0 10px;
+        width: 100%;
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    &:focus-within {
+        border: 1px solid black;
+    }
+}
