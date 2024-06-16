@@ -1,0 +1,45 @@
+.sidenav {
+    border-right: 1px solid var(--border-color);
+    background: var(--background-nav-color);
+    height: 100vh;
+    display: inline-block;
+
+    .sidenav-header {
+        height: 60px;
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+
+        .sidenav-header-branding {
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+        }
+    }
+
+    .sidenav-title {
+        margin-left: 5px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+
+    .sidenav-list {
+        padding: 0;
+        margin: 15px 25px;
+        list-style: none;
+        font-size: 16px;
+        color: var(--font-color);
+
+        li {
+            display: flex;
+            align-items: center;
+            padding: 8px 0;
+
+            .sidenav-list-icon {
+                width: 20px;
+                height: 20px;
+                margin-right: 15px;
+            }
+        }
+    }
+}
