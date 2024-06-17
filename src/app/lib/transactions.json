@@ -1,0 +1,73 @@
+{
+    "accounts": [
+        {
+            "account_id": "A123456",
+            "transactions": [
+                {
+                    "date": "2024-06-10",
+                    "amount_spent": 45.67,
+                    "description": "Grocery Store",
+                    "category": "Groceries"
+                },
+                {
+                    "date": "2024-06-12",
+                    "amount_spent": 15.89,
+                    "description": "Coffee Shop",
+                    "category": "Food & Drink"
+                },
+                {
+                    "date": "2024-06-15",
+                    "amount_spent": 120.0,
+                    "description": "Electricity Bill",
+                    "category": "Utilities"
+                }
+            ]
+        },
+        {
+            "account_id": "B654321",
+            "transactions": [
+                {
+                    "date": "2024-06-11",
+                    "amount_spent": 200.45,
+                    "description": "Car Repair",
+                    "category": "Auto & Transport"
+                },
+                {
+                    "date": "2024-06-13",
+                    "amount_spent": 75.2,
+                    "description": "Restaurant Dinner",
+                    "category": "Food & Drink"
+                },
+                {
+                    "date": "2024-06-16",
+                    "amount_spent": 40.0,
+                    "description": "Internet Bill",
+                    "category": "Utilities"
+                }
+            ]
+        },
+        {
+            "account_id": "C789012",
+            "transactions": [
+                {
+                    "date": "2024-06-09",
+                    "amount_spent": 60.0,
+                    "description": "New Shoes",
+                    "category": "Shopping"
+                },
+                {
+                    "date": "2024-06-14",
+                    "amount_spent": 30.0,
+                    "description": "Gas Station",
+                    "category": "Auto & Transport"
+                },
+                {
+                    "date": "2024-06-17",
+                    "amount_spent": 95.0,
+                    "description": "Monthly Gym Membership",
+                    "category": "Health & Fitness"
+                }
+            ]
+        }
+    ]
+}
